@@ -1,0 +1,28 @@
+{
+  "name": "daily-quote-twitter-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter-bot",
+    "daily-quote-twitter-bot"
+  ],
+  "author": "Manish Bhanot",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node-cron": "^3.0.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2",
+    "twitter-api-v2": "^1.15.1"
+  }
+}
